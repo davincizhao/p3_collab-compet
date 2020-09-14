@@ -31,7 +31,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Follow the [README.md](https://github.com/udacity/deep-reinforcement-learning/blob/master/README.md) to install Dependencies.
 
-3. Download [my MADDPG agent]() and place all file in the `p3_collab-compet/` folder, we will work in the folder in all time.
+3. Download [my MADDPG agent](https://github.com/davincizhao/p3_collab-compet) and place all file in the `p3_collab-compet/` folder, we will work in the folder in all time.
 
 4. If you want to use CUDA to accerate the training, Please install the right version of pytorch_cuda.
 
@@ -56,5 +56,24 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Instructions
 
 Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+
+- networkforall.py : it nerual network model
+- OUNoise.py : OU noise function 
+- buffer.py : replay buffer model
+- ddpg.py : single ddpg agent model
+- maddpg.py: multi ddpg 
+
+
+- Tennis.ipynb : jupyter notebook file to run the training code and test the agent performance.
+
+- actor_0_checkpoint.pth and actor_1_checkpoint.pth : sucessful training parameters checkpoint in cpu
+- actor_0_checkpoint_gpu.pth and actor_1_checkpoint_gpu.pth : sucessful training parameters checkpoint in GPU
+
+- scores0830.npz : episode rewards plot data file.
+- README_p3.md : this README file.
+
+
+
+
 
 
